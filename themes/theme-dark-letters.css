@@ -1,0 +1,47 @@
+/* @theme smartmind-dark-letters */
+
+@import "default";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900");
+
+h1 {
+  color: #558eff;
+}
+
+h2,
+h3,
+h4 {
+  color: #888888;
+}
+
+section {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: whitesmoke;
+  color: #666666;
+}
+
+section.lead {
+  background-image: url("https://raw.githubusercontent.com/smartmind-team/marp-theme/main/assets/background.png");
+  /* text-align: center; */
+}
+
+section.lead h1,
+section.lead h2,
+section.lead h3,
+section.lead h4 {
+  color: white;
+}
+
+section.lead h1,
+section.lead h2 {
+  margin: 0;
+}
+
+section.lead h3,
+section.lead h4 {
+  text-align: right;
+}
+
+section.lead h3 {
+  margin-top: 10%;
+}
+
